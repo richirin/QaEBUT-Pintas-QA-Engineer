@@ -4,7 +4,8 @@
   "description": "UI Automation",
   "main": "index.js",
   "scripts": {
-    "test": "codeceptjs run --reporter mochawesome --reporter-options reportDir=output,reportFilename=index.html"
+    "test": "codeceptjs run --reporter mochawesome --reporter-options reportDir=output,reportFilename=index.html",
+    "parallel": "codeceptjs run-workers --suites 2 --reporter mochawesome --reporter-options reportDir=output,reportFilename=index.html"
   },
   "author": "Richi",
   "license": "ISC",
