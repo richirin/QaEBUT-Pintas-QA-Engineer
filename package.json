@@ -1,0 +1,18 @@
+{
+  "name": "realworld",
+  "version": "1.0.0",
+  "description": "UI Automation",
+  "main": "index.js",
+  "scripts": {
+    "test": "codeceptjs run --reporter mochawesome --reporter-options reportDir=output,reportFilename=index.html"
+  },
+  "author": "Richi",
+  "license": "ISC",
+  "devDependencies": {
+    "codeceptjs": "^3.0.5",
+    "dotenv": "^8.2.0",
+    "faker": "^5.4.0",
+    "mochawesome": "^6.2.2",
+    "playwright": "^1.9.1"
+  }
+}
