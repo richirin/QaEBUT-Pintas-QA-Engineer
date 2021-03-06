@@ -16,5 +16,4 @@ Scenario('Create Article', ({ I }) => {
     I.fillField({css:'textarea[formcontrolname=body]'}, article)
     I.click({css:'button[type=button]'})
     I.waitForText('Edit Article', 50)
-    I.see(articleTitle)
 });
